@@ -2,21 +2,6 @@
 name: workflow_01
 on:
   workflow_dispatch:
-     inputs:
-      example-cron:
-        description: 'ًWorkflow 2 which will be triggered'
-        required: true
-        default: 'example-cron'
-
-      example-cron_github_account:
-        description: 'GitHub Account Owner'
-        required: true
-        default: 'bbrozyna'
-
-      example-cron_repo_github:
-        description: 'repo-name'
-        required: true
-        default: 'bbrozyna' 
 
 jobs:
   build:
